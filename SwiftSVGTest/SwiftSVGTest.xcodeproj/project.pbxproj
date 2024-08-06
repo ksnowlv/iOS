@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4915C2832C5E5E4F00FE7A78 /* assetCatalog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2762C5E5E4F00FE7A78 /* assetCatalog.png */; };
+		4915C2842C5E5E4F00FE7A78 /* cowboyHat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2772C5E5E4F00FE7A78 /* cowboyHat.png */; };
+		4915C2852C5E5E4F00FE7A78 /* fistBump.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2782C5E5E4F00FE7A78 /* fistBump.png */; };
+		4915C2862C5E5E4F00FE7A78 /* hammock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2792C5E5E4F00FE7A78 /* hammock.png */; };
+		4915C2872C5E5E4F00FE7A78 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27A2C5E5E4F00FE7A78 /* pizza.png */; };
+		4915C2882C5E5E4F00FE7A78 /* sockPuppet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27B2C5E5E4F00FE7A78 /* sockPuppet.png */; };
+		4915C2892C5E5E4F00FE7A78 /* svgViewScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27C2C5E5E4F00FE7A78 /* svgViewScreenshot.png */; };
+		4915C28A2C5E5E4F00FE7A78 /* SwiftSVG-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27D2C5E5E4F00FE7A78 /* SwiftSVG-Logo.png */; };
+		4915C28B2C5E5E4F00FE7A78 /* tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27E2C5E5E4F00FE7A78 /* tea.png */; };
+		4915C28C2C5E5E4F00FE7A78 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4915C27F2C5E5E4F00FE7A78 /* triangle.png */; };
+		4915C28D2C5E5E4F00FE7A78 /* ukulele.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2812C5E5E4F00FE7A78 /* ukulele.svg */; };
+		4915C2B32C5E873500FE7A78 /* polygons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C28E2C5E873400FE7A78 /* polygons.svg */; };
+		4915C2B42C5E873500FE7A78 /* circles.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C28F2C5E873400FE7A78 /* circles.svg */; };
+		4915C2B52C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Camello.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2902C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Camello.svg */; };
+		4915C2B62C5E873500FE7A78 /* johnny-automatic-open-mouth.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2912C5E873400FE7A78 /* johnny-automatic-open-mouth.svg */; };
+		4915C2B72C5E873500FE7A78 /* sockPuppet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2922C5E873400FE7A78 /* sockPuppet.svg */; };
+		4915C2B82C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Coccinella_04.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2932C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Coccinella_04.svg */; };
+		4915C2B92C5E873500FE7A78 /* openclipart-1290111299.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2942C5E873400FE7A78 /* openclipart-1290111299.svg */; };
+		4915C2BA2C5E873500FE7A78 /* Fyodor-Dostoevsky.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2952C5E873400FE7A78 /* Fyodor-Dostoevsky.svg */; };
+		4915C2BB2C5E873500FE7A78 /* openclipart-zanzara_architetto_fran_03r.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2962C5E873400FE7A78 /* openclipart-zanzara_architetto_fran_03r.svg */; };
+		4915C2BC2C5E873500FE7A78 /* alohaShirt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2972C5E873400FE7A78 /* alohaShirt.svg */; };
+		4915C2BD2C5E873500FE7A78 /* decorativeblob.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2982C5E873400FE7A78 /* decorativeblob.svg */; };
+		4915C2BE2C5E873500FE7A78 /* fistBump.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2992C5E873400FE7A78 /* fistBump.svg */; };
+		4915C2BF2C5E873500FE7A78 /* ellipses.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29A2C5E873400FE7A78 /* ellipses.svg */; };
+		4915C2C02C5E873500FE7A78 /* berlin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29B2C5E873400FE7A78 /* berlin.svg */; };
+		4915C2C12C5E873500FE7A78 /* pizza.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29C2C5E873500FE7A78 /* pizza.svg */; };
+		4915C2C22C5E873500FE7A78 /* Camel2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29D2C5E873500FE7A78 /* Camel2.svg */; };
+		4915C2C32C5E873500FE7A78 /* hawaiiFlowers.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29E2C5E873500FE7A78 /* hawaiiFlowers.svg */; };
+		4915C2C42C5E873500FE7A78 /* DrawingBoard.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C29F2C5E873500FE7A78 /* DrawingBoard.svg */; };
+		4915C2C52C5E873500FE7A78 /* George_Kerr_Anderson_Patent_1885_1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A02C5E873500FE7A78 /* George_Kerr_Anderson_Patent_1885_1.svg */; };
+		4915C2C62C5E873500FE7A78 /* MedievalBanners.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A12C5E873500FE7A78 /* MedievalBanners.svg */; };
+		4915C2C72C5E873500FE7A78 /* rectangles.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A22C5E873500FE7A78 /* rectangles.svg */; };
+		4915C2C82C5E873500FE7A78 /* triangle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A32C5E873500FE7A78 /* triangle.svg */; };
+		4915C2C92C5E873500FE7A78 /* openclipart-tux.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A42C5E873500FE7A78 /* openclipart-tux.svg */; };
+		4915C2CA2C5E873500FE7A78 /* tea.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A52C5E873500FE7A78 /* tea.svg */; };
+		4915C2CB2C5E873500FE7A78 /* Dulcimer.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A62C5E873500FE7A78 /* Dulcimer.svg */; };
+		4915C2CC2C5E873500FE7A78 /* openclipart-motivo_geometrico_archit_01.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A72C5E873500FE7A78 /* openclipart-motivo_geometrico_archit_01.svg */; };
+		4915C2CD2C5E873500FE7A78 /* openclipart-1346768588.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A82C5E873500FE7A78 /* openclipart-1346768588.svg */; };
+		4915C2CE2C5E873500FE7A78 /* baseball.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2A92C5E873500FE7A78 /* baseball.svg */; };
+		4915C2CF2C5E873500FE7A78 /* raphaelcruzeiro.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AA2C5E873500FE7A78 /* raphaelcruzeiro.svg */; };
+		4915C2D02C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AB2C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg */; };
+		4915C2D12C5E873500FE7A78 /* rabbitcowboy.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AC2C5E873500FE7A78 /* rabbitcowboy.svg */; };
+		4915C2D22C5E873500FE7A78 /* openclipart-angry-coder.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AD2C5E873500FE7A78 /* openclipart-angry-coder.svg */; };
+		4915C2D32C5E873500FE7A78 /* tiger.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AE2C5E873500FE7A78 /* tiger.svg */; };
+		4915C2D42C5E873500FE7A78 /* error.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2AF2C5E873500FE7A78 /* error.svg */; };
+		4915C2D52C5E873500FE7A78 /* simple-rectangle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2B02C5E873500FE7A78 /* simple-rectangle.svg */; };
+		4915C2D62C5E873500FE7A78 /* polylines.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2B12C5E873500FE7A78 /* polylines.svg */; };
+		4915C2D72C5E873500FE7A78 /* openclipart-1332611679.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4915C2B22C5E873500FE7A78 /* openclipart-1332611679.svg */; };
+		4944725A2C5E5C9D00050C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494472592C5E5C9D00050C95 /* AppDelegate.swift */; };
+		4944725C2C5E5C9D00050C95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944725B2C5E5C9D00050C95 /* SceneDelegate.swift */; };
+		4944725E2C5E5C9D00050C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944725D2C5E5C9D00050C95 /* ViewController.swift */; };
+		494472612C5E5C9D00050C95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 494472602C5E5C9D00050C95 /* Base */; };
+		494472632C5E5C9F00050C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494472622C5E5C9F00050C95 /* Assets.xcassets */; };
+		494472662C5E5C9F00050C95 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 494472652C5E5C9F00050C95 /* Base */; };
+		52DF87DB75456EBDA4F95220 /* Pods_SwiftSVGTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E89235C71EC2EC627D00668 /* Pods_SwiftSVGTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4915C2762C5E5E4F00FE7A78 /* assetCatalog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assetCatalog.png; sourceTree = "<group>"; };
+		4915C2772C5E5E4F00FE7A78 /* cowboyHat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cowboyHat.png; sourceTree = "<group>"; };
+		4915C2782C5E5E4F00FE7A78 /* fistBump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fistBump.png; sourceTree = "<group>"; };
+		4915C2792C5E5E4F00FE7A78 /* hammock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammock.png; sourceTree = "<group>"; };
+		4915C27A2C5E5E4F00FE7A78 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		4915C27B2C5E5E4F00FE7A78 /* sockPuppet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sockPuppet.png; sourceTree = "<group>"; };
+		4915C27C2C5E5E4F00FE7A78 /* svgViewScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = svgViewScreenshot.png; sourceTree = "<group>"; };
+		4915C27D2C5E5E4F00FE7A78 /* SwiftSVG-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwiftSVG-Logo.png"; sourceTree = "<group>"; };
+		4915C27E2C5E5E4F00FE7A78 /* tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tea.png; sourceTree = "<group>"; };
+		4915C27F2C5E5E4F00FE7A78 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		4915C2812C5E5E4F00FE7A78 /* ukulele.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ukulele.svg; sourceTree = "<group>"; };
+		4915C28E2C5E873400FE7A78 /* polygons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = polygons.svg; sourceTree = "<group>"; };
+		4915C28F2C5E873400FE7A78 /* circles.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circles.svg; sourceTree = "<group>"; };
+		4915C2902C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Camello.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-Anonymous_Architetto_--_Camello.svg"; sourceTree = "<group>"; };
+		4915C2912C5E873400FE7A78 /* johnny-automatic-open-mouth.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "johnny-automatic-open-mouth.svg"; sourceTree = "<group>"; };
+		4915C2922C5E873400FE7A78 /* sockPuppet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sockPuppet.svg; sourceTree = "<group>"; };
+		4915C2932C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Coccinella_04.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-Anonymous_Architetto_--_Coccinella_04.svg"; sourceTree = "<group>"; };
+		4915C2942C5E873400FE7A78 /* openclipart-1290111299.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-1290111299.svg"; sourceTree = "<group>"; };
+		4915C2952C5E873400FE7A78 /* Fyodor-Dostoevsky.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Fyodor-Dostoevsky.svg"; sourceTree = "<group>"; };
+		4915C2962C5E873400FE7A78 /* openclipart-zanzara_architetto_fran_03r.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-zanzara_architetto_fran_03r.svg"; sourceTree = "<group>"; };
+		4915C2972C5E873400FE7A78 /* alohaShirt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = alohaShirt.svg; sourceTree = "<group>"; };
+		4915C2982C5E873400FE7A78 /* decorativeblob.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = decorativeblob.svg; sourceTree = "<group>"; };
+		4915C2992C5E873400FE7A78 /* fistBump.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fistBump.svg; sourceTree = "<group>"; };
+		4915C29A2C5E873400FE7A78 /* ellipses.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ellipses.svg; sourceTree = "<group>"; };
+		4915C29B2C5E873400FE7A78 /* berlin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = berlin.svg; sourceTree = "<group>"; };
+		4915C29C2C5E873500FE7A78 /* pizza.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pizza.svg; sourceTree = "<group>"; };
+		4915C29D2C5E873500FE7A78 /* Camel2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Camel2.svg; sourceTree = "<group>"; };
+		4915C29E2C5E873500FE7A78 /* hawaiiFlowers.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hawaiiFlowers.svg; sourceTree = "<group>"; };
+		4915C29F2C5E873500FE7A78 /* DrawingBoard.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DrawingBoard.svg; sourceTree = "<group>"; };
+		4915C2A02C5E873500FE7A78 /* George_Kerr_Anderson_Patent_1885_1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = George_Kerr_Anderson_Patent_1885_1.svg; sourceTree = "<group>"; };
+		4915C2A12C5E873500FE7A78 /* MedievalBanners.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MedievalBanners.svg; sourceTree = "<group>"; };
+		4915C2A22C5E873500FE7A78 /* rectangles.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rectangles.svg; sourceTree = "<group>"; };
+		4915C2A32C5E873500FE7A78 /* triangle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = triangle.svg; sourceTree = "<group>"; };
+		4915C2A42C5E873500FE7A78 /* openclipart-tux.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-tux.svg"; sourceTree = "<group>"; };
+		4915C2A52C5E873500FE7A78 /* tea.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tea.svg; sourceTree = "<group>"; };
+		4915C2A62C5E873500FE7A78 /* Dulcimer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dulcimer.svg; sourceTree = "<group>"; };
+		4915C2A72C5E873500FE7A78 /* openclipart-motivo_geometrico_archit_01.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-motivo_geometrico_archit_01.svg"; sourceTree = "<group>"; };
+		4915C2A82C5E873500FE7A78 /* openclipart-1346768588.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-1346768588.svg"; sourceTree = "<group>"; };
+		4915C2A92C5E873500FE7A78 /* baseball.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = baseball.svg; sourceTree = "<group>"; };
+		4915C2AA2C5E873500FE7A78 /* raphaelcruzeiro.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = raphaelcruzeiro.svg; sourceTree = "<group>"; };
+		4915C2AB2C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-Anonymous_Architetto_--_Bicicletta.svg"; sourceTree = "<group>"; };
+		4915C2AC2C5E873500FE7A78 /* rabbitcowboy.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rabbitcowboy.svg; sourceTree = "<group>"; };
+		4915C2AD2C5E873500FE7A78 /* openclipart-angry-coder.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-angry-coder.svg"; sourceTree = "<group>"; };
+		4915C2AE2C5E873500FE7A78 /* tiger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tiger.svg; sourceTree = "<group>"; };
+		4915C2AF2C5E873500FE7A78 /* error.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = error.svg; sourceTree = "<group>"; };
+		4915C2B02C5E873500FE7A78 /* simple-rectangle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "simple-rectangle.svg"; sourceTree = "<group>"; };
+		4915C2B12C5E873500FE7A78 /* polylines.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polylines.svg; sourceTree = "<group>"; };
+		4915C2B22C5E873500FE7A78 /* openclipart-1332611679.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "openclipart-1332611679.svg"; sourceTree = "<group>"; };
+		494472562C5E5C9D00050C95 /* SwiftSVGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSVGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494472592C5E5C9D00050C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4944725B2C5E5C9D00050C95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4944725D2C5E5C9D00050C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		494472602C5E5C9D00050C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494472622C5E5C9F00050C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494472652C5E5C9F00050C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494472672C5E5C9F00050C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E89235C71EC2EC627D00668 /* Pods_SwiftSVGTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSVGTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07912DCCD5307D5B207C286 /* Pods-SwiftSVGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSVGTest.release.xcconfig"; path = "Target Support Files/Pods-SwiftSVGTest/Pods-SwiftSVGTest.release.xcconfig"; sourceTree = "<group>"; };
+		F3FBF4AE9698C64AE5EDB457 /* Pods-SwiftSVGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSVGTest.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSVGTest/Pods-SwiftSVGTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494472532C5E5C9D00050C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF87DB75456EBDA4F95220 /* Pods_SwiftSVGTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0425A2F5F5A2DF225F07A535 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FBF4AE9698C64AE5EDB457 /* Pods-SwiftSVGTest.debug.xcconfig */,
+				A07912DCCD5307D5B207C286 /* Pods-SwiftSVGTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4915C2802C5E5E4F00FE7A78 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4915C2762C5E5E4F00FE7A78 /* assetCatalog.png */,
+				4915C2772C5E5E4F00FE7A78 /* cowboyHat.png */,
+				4915C2782C5E5E4F00FE7A78 /* fistBump.png */,
+				4915C2792C5E5E4F00FE7A78 /* hammock.png */,
+				4915C27A2C5E5E4F00FE7A78 /* pizza.png */,
+				4915C27B2C5E5E4F00FE7A78 /* sockPuppet.png */,
+				4915C27C2C5E5E4F00FE7A78 /* svgViewScreenshot.png */,
+				4915C27D2C5E5E4F00FE7A78 /* SwiftSVG-Logo.png */,
+				4915C27E2C5E5E4F00FE7A78 /* tea.png */,
+				4915C27F2C5E5E4F00FE7A78 /* triangle.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4915C2822C5E5E4F00FE7A78 /* svgs */ = {
+			isa = PBXGroup;
+			children = (
+				4915C2972C5E873400FE7A78 /* alohaShirt.svg */,
+				4915C2A92C5E873500FE7A78 /* baseball.svg */,
+				4915C29B2C5E873400FE7A78 /* berlin.svg */,
+				4915C29D2C5E873500FE7A78 /* Camel2.svg */,
+				4915C28F2C5E873400FE7A78 /* circles.svg */,
+				4915C2982C5E873400FE7A78 /* decorativeblob.svg */,
+				4915C29F2C5E873500FE7A78 /* DrawingBoard.svg */,
+				4915C2A62C5E873500FE7A78 /* Dulcimer.svg */,
+				4915C29A2C5E873400FE7A78 /* ellipses.svg */,
+				4915C2AF2C5E873500FE7A78 /* error.svg */,
+				4915C2992C5E873400FE7A78 /* fistBump.svg */,
+				4915C2952C5E873400FE7A78 /* Fyodor-Dostoevsky.svg */,
+				4915C2A02C5E873500FE7A78 /* George_Kerr_Anderson_Patent_1885_1.svg */,
+				4915C29E2C5E873500FE7A78 /* hawaiiFlowers.svg */,
+				4915C2912C5E873400FE7A78 /* johnny-automatic-open-mouth.svg */,
+				4915C2A12C5E873500FE7A78 /* MedievalBanners.svg */,
+				4915C2942C5E873400FE7A78 /* openclipart-1290111299.svg */,
+				4915C2B22C5E873500FE7A78 /* openclipart-1332611679.svg */,
+				4915C2A82C5E873500FE7A78 /* openclipart-1346768588.svg */,
+				4915C2AD2C5E873500FE7A78 /* openclipart-angry-coder.svg */,
+				4915C2AB2C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg */,
+				4915C2902C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Camello.svg */,
+				4915C2932C5E873400FE7A78 /* openclipart-Anonymous_Architetto_--_Coccinella_04.svg */,
+				4915C2A72C5E873500FE7A78 /* openclipart-motivo_geometrico_archit_01.svg */,
+				4915C2A42C5E873500FE7A78 /* openclipart-tux.svg */,
+				4915C2962C5E873400FE7A78 /* openclipart-zanzara_architetto_fran_03r.svg */,
+				4915C29C2C5E873500FE7A78 /* pizza.svg */,
+				4915C28E2C5E873400FE7A78 /* polygons.svg */,
+				4915C2B12C5E873500FE7A78 /* polylines.svg */,
+				4915C2AC2C5E873500FE7A78 /* rabbitcowboy.svg */,
+				4915C2AA2C5E873500FE7A78 /* raphaelcruzeiro.svg */,
+				4915C2A22C5E873500FE7A78 /* rectangles.svg */,
+				4915C2B02C5E873500FE7A78 /* simple-rectangle.svg */,
+				4915C2922C5E873400FE7A78 /* sockPuppet.svg */,
+				4915C2A52C5E873500FE7A78 /* tea.svg */,
+				4915C2AE2C5E873500FE7A78 /* tiger.svg */,
+				4915C2A32C5E873500FE7A78 /* triangle.svg */,
+				4915C2812C5E5E4F00FE7A78 /* ukulele.svg */,
+			);
+			path = svgs;
+			sourceTree = "<group>";
+		};
+		4944724D2C5E5C9D00050C95 = {
+			isa = PBXGroup;
+			children = (
+				494472582C5E5C9D00050C95 /* SwiftSVGTest */,
+				494472572C5E5C9D00050C95 /* Products */,
+				0425A2F5F5A2DF225F07A535 /* Pods */,
+				943D6FEA6346F409640EF660 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		494472572C5E5C9D00050C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494472562C5E5C9D00050C95 /* SwiftSVGTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494472582C5E5C9D00050C95 /* SwiftSVGTest */ = {
+			isa = PBXGroup;
+			children = (
+				4915C2802C5E5E4F00FE7A78 /* images */,
+				4915C2822C5E5E4F00FE7A78 /* svgs */,
+				494472592C5E5C9D00050C95 /* AppDelegate.swift */,
+				4944725B2C5E5C9D00050C95 /* SceneDelegate.swift */,
+				4944725D2C5E5C9D00050C95 /* ViewController.swift */,
+				4944725F2C5E5C9D00050C95 /* Main.storyboard */,
+				494472622C5E5C9F00050C95 /* Assets.xcassets */,
+				494472642C5E5C9F00050C95 /* LaunchScreen.storyboard */,
+				494472672C5E5C9F00050C95 /* Info.plist */,
+			);
+			path = SwiftSVGTest;
+			sourceTree = "<group>";
+		};
+		943D6FEA6346F409640EF660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E89235C71EC2EC627D00668 /* Pods_SwiftSVGTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494472552C5E5C9D00050C95 /* SwiftSVGTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4944726A2C5E5C9F00050C95 /* Build configuration list for PBXNativeTarget "SwiftSVGTest" */;
+			buildPhases = (
+				1279BF5D9253D22C8F80D3C5 /* [CP] Check Pods Manifest.lock */,
+				494472522C5E5C9D00050C95 /* Sources */,
+				494472532C5E5C9D00050C95 /* Frameworks */,
+				494472542C5E5C9D00050C95 /* Resources */,
+				3DE21827A6A4AEEF734A6131 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSVGTest;
+			productName = SwiftSVGTest;
+			productReference = 494472562C5E5C9D00050C95 /* SwiftSVGTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4944724E2C5E5C9D00050C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					494472552C5E5C9D00050C95 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 494472512C5E5C9D00050C95 /* Build configuration list for PBXProject "SwiftSVGTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4944724D2C5E5C9D00050C95;
+			productRefGroup = 494472572C5E5C9D00050C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494472552C5E5C9D00050C95 /* SwiftSVGTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494472542C5E5C9D00050C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4915C2D22C5E873500FE7A78 /* openclipart-angry-coder.svg in Resources */,
+				4915C2C82C5E873500FE7A78 /* triangle.svg in Resources */,
+				4915C2BE2C5E873500FE7A78 /* fistBump.svg in Resources */,
+				4915C2BB2C5E873500FE7A78 /* openclipart-zanzara_architetto_fran_03r.svg in Resources */,
+				4915C2C42C5E873500FE7A78 /* DrawingBoard.svg in Resources */,
+				4915C2C62C5E873500FE7A78 /* MedievalBanners.svg in Resources */,
+				4915C2C22C5E873500FE7A78 /* Camel2.svg in Resources */,
+				4915C28B2C5E5E4F00FE7A78 /* tea.png in Resources */,
+				4915C28A2C5E5E4F00FE7A78 /* SwiftSVG-Logo.png in Resources */,
+				4915C2C02C5E873500FE7A78 /* berlin.svg in Resources */,
+				494472632C5E5C9F00050C95 /* Assets.xcassets in Resources */,
+				4915C2882C5E5E4F00FE7A78 /* sockPuppet.png in Resources */,
+				494472662C5E5C9F00050C95 /* Base in Resources */,
+				4915C2CC2C5E873500FE7A78 /* openclipart-motivo_geometrico_archit_01.svg in Resources */,
+				4915C2BF2C5E873500FE7A78 /* ellipses.svg in Resources */,
+				4915C2CA2C5E873500FE7A78 /* tea.svg in Resources */,
+				4915C2D32C5E873500FE7A78 /* tiger.svg in Resources */,
+				4915C2D42C5E873500FE7A78 /* error.svg in Resources */,
+				4915C2892C5E5E4F00FE7A78 /* svgViewScreenshot.png in Resources */,
+				4915C2B32C5E873500FE7A78 /* polygons.svg in Resources */,
+				4915C2D02C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg in Resources */,
+				4915C2C92C5E873500FE7A78 /* openclipart-tux.svg in Resources */,
+				4915C2CF2C5E873500FE7A78 /* raphaelcruzeiro.svg in Resources */,
+				4915C2CD2C5E873500FE7A78 /* openclipart-1346768588.svg in Resources */,
+				4915C2B92C5E873500FE7A78 /* openclipart-1290111299.svg in Resources */,
+				4915C2872C5E5E4F00FE7A78 /* pizza.png in Resources */,
+				4915C2D12C5E873500FE7A78 /* rabbitcowboy.svg in Resources */,
+				4915C2D72C5E873500FE7A78 /* openclipart-1332611679.svg in Resources */,
+				4915C2BD2C5E873500FE7A78 /* decorativeblob.svg in Resources */,
+				4915C2862C5E5E4F00FE7A78 /* hammock.png in Resources */,
+				4915C2C52C5E873500FE7A78 /* George_Kerr_Anderson_Patent_1885_1.svg in Resources */,
+				4915C2BC2C5E873500FE7A78 /* alohaShirt.svg in Resources */,
+				4915C2C12C5E873500FE7A78 /* pizza.svg in Resources */,
+				4915C28C2C5E5E4F00FE7A78 /* triangle.png in Resources */,
+				4915C2832C5E5E4F00FE7A78 /* assetCatalog.png in Resources */,
+				4915C28D2C5E5E4F00FE7A78 /* ukulele.svg in Resources */,
+				4915C2852C5E5E4F00FE7A78 /* fistBump.png in Resources */,
+				4915C2B72C5E873500FE7A78 /* sockPuppet.svg in Resources */,
+				4915C2C72C5E873500FE7A78 /* rectangles.svg in Resources */,
+				4915C2CE2C5E873500FE7A78 /* baseball.svg in Resources */,
+				494472612C5E5C9D00050C95 /* Base in Resources */,
+				4915C2C32C5E873500FE7A78 /* hawaiiFlowers.svg in Resources */,
+				4915C2BA2C5E873500FE7A78 /* Fyodor-Dostoevsky.svg in Resources */,
+				4915C2D62C5E873500FE7A78 /* polylines.svg in Resources */,
+				4915C2B42C5E873500FE7A78 /* circles.svg in Resources */,
+				4915C2CB2C5E873500FE7A78 /* Dulcimer.svg in Resources */,
+				4915C2B82C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Coccinella_04.svg in Resources */,
+				4915C2B52C5E873500FE7A78 /* openclipart-Anonymous_Architetto_--_Camello.svg in Resources */,
+				4915C2D52C5E873500FE7A78 /* simple-rectangle.svg in Resources */,
+				4915C2B62C5E873500FE7A78 /* johnny-automatic-open-mouth.svg in Resources */,
+				4915C2842C5E5E4F00FE7A78 /* cowboyHat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1279BF5D9253D22C8F80D3C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSVGTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE21827A6A4AEEF734A6131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSVGTest/Pods-SwiftSVGTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSVGTest/Pods-SwiftSVGTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftSVGTest/Pods-SwiftSVGTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494472522C5E5C9D00050C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944725E2C5E5C9D00050C95 /* ViewController.swift in Sources */,
+				4944725A2C5E5C9D00050C95 /* AppDelegate.swift in Sources */,
+				4944725C2C5E5C9D00050C95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4944725F2C5E5C9D00050C95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494472602C5E5C9D00050C95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494472642C5E5C9F00050C95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494472652C5E5C9F00050C95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494472682C5E5C9F00050C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494472692C5E5C9F00050C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4944726B2C5E5C9F00050C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FBF4AE9698C64AE5EDB457 /* Pods-SwiftSVGTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftSVGTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.SwiftSVGTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4944726C2C5E5C9F00050C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07912DCCD5307D5B207C286 /* Pods-SwiftSVGTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftSVGTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.SwiftSVGTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494472512C5E5C9D00050C95 /* Build configuration list for PBXProject "SwiftSVGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494472682C5E5C9F00050C95 /* Debug */,
+				494472692C5E5C9F00050C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4944726A2C5E5C9F00050C95 /* Build configuration list for PBXNativeTarget "SwiftSVGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944726B2C5E5C9F00050C95 /* Debug */,
+				4944726C2C5E5C9F00050C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4944724E2C5E5C9D00050C95 /* Project object */;
+}

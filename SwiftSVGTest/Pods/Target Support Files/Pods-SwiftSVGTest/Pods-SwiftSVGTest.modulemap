@@ -1,0 +1,6 @@
+framework module Pods_SwiftSVGTest {
+  umbrella header "Pods-SwiftSVGTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
