@@ -1,0 +1,6 @@
+framework module Pods_WCDBTest {
+  umbrella header "Pods-WCDBTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
