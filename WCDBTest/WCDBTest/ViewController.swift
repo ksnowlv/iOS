@@ -79,16 +79,16 @@ class ViewController: UIViewController {
       
         do {
             
-            for person in persons {
-                try database.insertOrIgnore(person, intoTable: Person.tableName)
-            }
+//            for person in persons {
+//                try database.insertOrIgnore(person, intoTable: Person.tableName)
+//            }
+            
+            try database.insertOrIgnore(persons, intoTable: Person.tableName)
            
         } catch {
             print(error.localizedDescription)
         }
         
-       
-
         let deltaTime = (CFAbsoluteTimeGetCurrent() - startTime)*1000
         
         print("---插入数据耗时：\(deltaTime)")
