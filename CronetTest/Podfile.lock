@@ -1,0 +1,16 @@
+PODS:
+  - Cronet (87.0.4280.60)
+
+DEPENDENCIES:
+  - Cronet
+
+SPEC REPOS:
+  trunk:
+    - Cronet
+
+SPEC CHECKSUMS:
+  Cronet: 10093df403efaac6cfde7bf34e882a615223b52f
+
+PODFILE CHECKSUM: dbfea063cf3b8372e59d6ae15a1378865f6ff669
+
+COCOAPODS: 1.15.2
