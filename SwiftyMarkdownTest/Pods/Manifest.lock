@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyMarkdown (1.2.4)
+
+DEPENDENCIES:
+  - SwiftyMarkdown
+
+SPEC REPOS:
+  trunk:
+    - SwiftyMarkdown
+
+SPEC CHECKSUMS:
+  SwiftyMarkdown: 7cdec87c6ab5cd9ea0e22ced288e889960649ba5
+
+PODFILE CHECKSUM: 5286ab41320c0dfda7368bb8e9d875a68951e063
+
+COCOAPODS: 1.15.2
