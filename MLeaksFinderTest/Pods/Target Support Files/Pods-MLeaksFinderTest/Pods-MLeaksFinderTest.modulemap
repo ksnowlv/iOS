@@ -1,0 +1,6 @@
+framework module Pods_MLeaksFinderTest {
+  umbrella header "Pods-MLeaksFinderTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
