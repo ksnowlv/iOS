@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.testChunked()
+        self.testGrouped()
+        self.testCombinations()
     }
     
     func testChunked()  {
@@ -36,6 +38,39 @@ class ViewController: UIViewController {
         }
         
         
+    }
+    
+    func testOrderSet() {
+        let set = NSOrderedSet()
+  
+    }
+    
+    func testCombinations() {
+        let numbers = [10, 20, 30, 40]
+        for combo in numbers.combinations(ofCount: 2) {
+            print(combo)
+        }
+        
+        let numbers2 = [20, 10, 10]
+        for combo in numbers2.combinations(ofCount: 2) {
+            print(combo)
+        }
+        
+        let numbers3 = [10, 20, 30, 40]
+        for combo in numbers3.combinations(ofCount: 2...3) {
+            print(combo)
+        }
+    }
+    
+    func testGrouped() {
+        let fruits = ["Apricot", "Banana","grape","pineapple","watermelon", "Apple", "Cherry", "Avocado", "Coconut"]
+        let fruitsByLetter = fruits.grouped(by: { $0.first! })
+        // Results in:
+        // [
+        //     "B": ["Banana"],
+        //     "A": ["Apricot", "Apple", "Avocado"],
+        //     "C": ["Cherry", "Coconut"],
+        // ]
     }
 }
 

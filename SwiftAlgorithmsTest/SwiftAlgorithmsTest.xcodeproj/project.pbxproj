@@ -3,17 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4909241D2C6EDC3100F997A3 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4909241C2C6EDC3100F997A3 /* Algorithms */; };
 		490AF85D2C6E4C1A00F70B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AF85C2C6E4C1A00F70B38 /* AppDelegate.swift */; };
 		490AF85F2C6E4C1A00F70B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AF85E2C6E4C1A00F70B38 /* SceneDelegate.swift */; };
 		490AF8612C6E4C1A00F70B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490AF8602C6E4C1A00F70B38 /* ViewController.swift */; };
 		490AF8642C6E4C1A00F70B38 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 490AF8632C6E4C1A00F70B38 /* Base */; };
 		490AF8662C6E4C1C00F70B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490AF8652C6E4C1C00F70B38 /* Assets.xcassets */; };
 		490AF8692C6E4C1C00F70B38 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 490AF8682C6E4C1C00F70B38 /* Base */; };
+		4979AAF12C8D4EB200BD63E8 /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 4979AAF02C8D4EB200BD63E8 /* ComplexModule */; };
+		4979AAF32C8D4EB200BD63E8 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 4979AAF22C8D4EB200BD63E8 /* Numerics */; };
+		4979AAF52C8D4EB200BD63E8 /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 4979AAF42C8D4EB200BD63E8 /* RealModule */; };
+		4979AAF82C8D4EC400BD63E8 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4979AAF72C8D4EC400BD63E8 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +35,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4909241D2C6EDC3100F997A3 /* Algorithms in Frameworks */,
+				4979AAF82C8D4EC400BD63E8 /* Algorithms in Frameworks */,
+				4979AAF32C8D4EB200BD63E8 /* Numerics in Frameworks */,
+				4979AAF12C8D4EB200BD63E8 /* ComplexModule in Frameworks */,
+				4979AAF52C8D4EB200BD63E8 /* RealModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +100,10 @@
 			);
 			name = SwiftAlgorithmsTest;
 			packageProductDependencies = (
-				4909241C2C6EDC3100F997A3 /* Algorithms */,
+				4979AAF02C8D4EB200BD63E8 /* ComplexModule */,
+				4979AAF22C8D4EB200BD63E8 /* Numerics */,
+				4979AAF42C8D4EB200BD63E8 /* RealModule */,
+				4979AAF72C8D4EC400BD63E8 /* Algorithms */,
 			);
 			productName = SwiftAlgorithmsTest;
 			productReference = 490AF8592C6E4C1A00F70B38 /* SwiftAlgorithmsTest.app */;
@@ -125,7 +134,8 @@
 			);
 			mainGroup = 490AF8502C6E4C1A00F70B38;
 			packageReferences = (
-				490AF8702C6E576400F70B38 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				4979AAEF2C8D4EB200BD63E8 /* XCLocalSwiftPackageReference "SwiftAlgorithmsTest/swift-numerics" */,
+				4979AAF62C8D4EC400BD63E8 /* XCLocalSwiftPackageReference "SwiftAlgorithmsTest/swift-algorithms" */,
 			);
 			productRefGroup = 490AF85A2C6E4C1A00F70B38 /* Products */;
 			projectDirPath = "";
@@ -382,21 +392,32 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		490AF8702C6E576400F70B38 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-algorithms.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		4979AAEF2C8D4EB200BD63E8 /* XCLocalSwiftPackageReference "SwiftAlgorithmsTest/swift-numerics" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "SwiftAlgorithmsTest/swift-numerics";
 		};
-/* End XCRemoteSwiftPackageReference section */
+		4979AAF62C8D4EC400BD63E8 /* XCLocalSwiftPackageReference "SwiftAlgorithmsTest/swift-algorithms" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "SwiftAlgorithmsTest/swift-algorithms";
+		};
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4909241C2C6EDC3100F997A3 /* Algorithms */ = {
+		4979AAF02C8D4EB200BD63E8 /* ComplexModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 490AF8702C6E576400F70B38 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = ComplexModule;
+		};
+		4979AAF22C8D4EB200BD63E8 /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Numerics;
+		};
+		4979AAF42C8D4EB200BD63E8 /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealModule;
+		};
+		4979AAF72C8D4EC400BD63E8 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
