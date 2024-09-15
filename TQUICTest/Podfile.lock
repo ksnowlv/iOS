@@ -1,0 +1,21 @@
+PODS:
+  - OpenSSL-Universal (1.1.1100)
+
+DEPENDENCIES:
+  - OpenSSL-Universal (from `https://gitee.com/jjguodong_520/open-ssl-universal`)
+
+EXTERNAL SOURCES:
+  OpenSSL-Universal:
+    :git: https://gitee.com/jjguodong_520/open-ssl-universal
+
+CHECKOUT OPTIONS:
+  OpenSSL-Universal:
+    :commit: e59e598bad78fbbc916ab7025f45a0b982a28e08
+    :git: https://gitee.com/jjguodong_520/open-ssl-universal
+
+SPEC CHECKSUMS:
+  OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+
+PODFILE CHECKSUM: 5a9ceb811f72dcea27db03b8e038781704d65ab2
+
+COCOAPODS: 1.15.2
