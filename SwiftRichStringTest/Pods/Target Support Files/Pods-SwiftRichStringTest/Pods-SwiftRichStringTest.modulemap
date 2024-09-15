@@ -1,0 +1,6 @@
+framework module Pods_SwiftRichStringTest {
+  umbrella header "Pods-SwiftRichStringTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
