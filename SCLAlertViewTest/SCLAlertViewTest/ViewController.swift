@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         
         self.count += 1
         
-        if self.count == 7 {
+        if self.count == 8 {
             self.count = 0
         }
         

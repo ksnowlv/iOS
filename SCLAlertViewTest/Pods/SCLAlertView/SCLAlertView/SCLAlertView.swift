@@ -280,8 +280,11 @@ open class SCLAlertView: UIViewController {
         if #available(iOS 13.0, *) {
             // 对于iOS 13及以上版本，首先尝试获取活跃的UIWindowScene
             if let scene = UIApplication.shared.connectedScenes.first,
-               let windowScene = scene as? UIWindowScene ,  let window = windowScene.windows.first(where: { $0.isKeyWindow }) {
-                return window
+               let windowScene = scene as? UIWindowScene  {
+                
+                if let window = windowScene.windows.first(where: { $0.isKeyWindow }) {
+                    return window
+                }
             }
             
             // 如果没有找到，尝试获取所有窗口中的最后一个
