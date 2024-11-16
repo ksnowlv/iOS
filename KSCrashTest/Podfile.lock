@@ -1,0 +1,78 @@
+PODS:
+  - KSCrash (1.17.6):
+    - KSCrash/Installations (= 1.17.6)
+  - KSCrash/Installations (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting
+  - KSCrash/Recording (1.17.6):
+    - KSCrash/Recording/Tools (= 1.17.6)
+  - KSCrash/Recording/Tools (1.17.6)
+  - KSCrash/Reporting (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 1.17.6)
+    - KSCrash/Reporting/MessageUI (= 1.17.6)
+    - KSCrash/Reporting/Sinks (= 1.17.6)
+    - KSCrash/Reporting/Tools (= 1.17.6)
+  - KSCrash/Reporting/Filters (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 1.17.6)
+    - KSCrash/Reporting/Filters/AppleFmt (= 1.17.6)
+    - KSCrash/Reporting/Filters/Base (= 1.17.6)
+    - KSCrash/Reporting/Filters/Basic (= 1.17.6)
+    - KSCrash/Reporting/Filters/GZip (= 1.17.6)
+    - KSCrash/Reporting/Filters/JSON (= 1.17.6)
+    - KSCrash/Reporting/Filters/Sets (= 1.17.6)
+    - KSCrash/Reporting/Filters/Stringify (= 1.17.6)
+    - KSCrash/Reporting/Filters/Tools (= 1.17.6)
+  - KSCrash/Reporting/Filters/Alert (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (1.17.6):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+    - KSCrash/Reporting/Filters/Stringify
+  - KSCrash/Reporting/Filters/Stringify (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Tools (1.17.6):
+    - KSCrash/Recording
+  - KSCrash/Reporting/MessageUI (1.17.6):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Sinks (1.17.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (1.17.6):
+    - KSCrash/Recording
+
+DEPENDENCIES:
+  - KSCrash
+
+SPEC REPOS:
+  trunk:
+    - KSCrash
+
+SPEC CHECKSUMS:
+  KSCrash: e8581bd1a93e3bc7398ae91500c11c0ebf9159a2
+
+PODFILE CHECKSUM: 70500012fef0f126164d9cccd68e202d2d668134
+
+COCOAPODS: 1.15.2
