@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    func testSwiftUICallAppDelegate() {
+        
+        print("SwiftUI Call AppDelegate Method")
+    }
 
     // MARK: UISceneSession Lifecycle
 

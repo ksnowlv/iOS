@@ -7,7 +7,7 @@
 
 import UIKit
 import CryptoKit
-
+import SwiftUI
 
 
 class ViewController: UIViewController {
@@ -15,6 +15,45 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.testSwiftUIIntoUIkit()
+        
+    }
+    
+    func testSwiftUIIntoUIkit() {
+        //        let swiftUIView = SwiftUIView()
+        //        let hostingController = UIHostingController(rootView: swiftUIView)
+        //        addChild(hostingController)
+        //
+        //        let size =  UIScreen.main.bounds.size
+        //
+        //        hostingController.view.frame = CGRect(x: 0, y: size.height/2, width: size.width, height: size.height/2)
+        //        self.view.addSubview(hostingController.view)
+        //        hostingController.didMove(toParent: self)
+        
+        
+        let swiftUIView = SwiftUIView()
+        
+        // 获取SwiftUI视图的UIkit视图表示
+        let swiftUIUIKitView = UIHostingController(rootView: swiftUIView).view!
+        
+        // 将SwiftUI视图的UIKit表示添加到当前UIViewController的视图中
+        swiftUIUIKitView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(swiftUIUIKitView)
+         swiftUIUIKitView.backgroundColor = UIColor.blue
+        
+      
+        NSLayoutConstraint.activate([
+            // 和父视图中心对齐
+//            swiftUIUIKitView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//            swiftUIUIKitView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+//            
+            // 上下左右各留20的间距
+            swiftUIUIKitView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
+            swiftUIUIKitView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
+            swiftUIUIKitView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            swiftUIUIKitView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -50)
+            
+        ])
     }
     
     @IBAction func testJsonUniqueIdentifierEvent() {
@@ -84,13 +123,13 @@ class ViewController: UIViewController {
         switch json {
         case let json as [String: Any]:
             //必须进行json对象key的排序
-              json.keys.sorted().forEach { key in
-                  uniqueIdentifier += generateJsonUniqueIdentifier(for: json[key] as Any, parent: "\(key)")
-              }
-          case let json as [Any]:
-              json.enumerated().forEach { index, value in
-                  uniqueIdentifier += generateJsonUniqueIdentifier(for: value, parent: index.description)
-              }
+            json.keys.sorted().forEach { key in
+                uniqueIdentifier += generateJsonUniqueIdentifier(for: json[key] as Any, parent: "\(key)")
+            }
+        case let json as [Any]:
+            json.enumerated().forEach { index, value in
+                uniqueIdentifier += generateJsonUniqueIdentifier(for: value, parent: index.description)
+            }
         case let json as String:
             uniqueIdentifier += json
         case let json as Int:
@@ -114,4 +153,6 @@ class ViewController: UIViewController {
         return uniqueIdentifier
     }
 }
+
+
 
