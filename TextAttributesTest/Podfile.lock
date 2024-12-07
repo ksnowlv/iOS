@@ -1,0 +1,16 @@
+PODS:
+  - TextAttributes (2.0.2)
+
+DEPENDENCIES:
+  - TextAttributes
+
+SPEC REPOS:
+  trunk:
+    - TextAttributes
+
+SPEC CHECKSUMS:
+  TextAttributes: 89905fb52c36de587010f335bd4071463d9c6d9b
+
+PODFILE CHECKSUM: b167a426b1460f4b1d5bee9b60ff8ab174080e98
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module Pods_TextAttributesTestTests {
+  umbrella header "Pods-TextAttributesTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
