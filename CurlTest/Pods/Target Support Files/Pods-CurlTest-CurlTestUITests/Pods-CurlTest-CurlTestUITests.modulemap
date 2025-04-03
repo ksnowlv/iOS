@@ -1,0 +1,6 @@
+framework module Pods_CurlTest_CurlTestUITests {
+  umbrella header "Pods-CurlTest-CurlTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCurl (0.4.1)
+
+DEPENDENCIES:
+  - SwiftyCurl
+
+SPEC REPOS:
+  trunk:
+    - SwiftyCurl
+
+SPEC CHECKSUMS:
+  SwiftyCurl: 2fcde581b4fd161451e29076b2cca8624e3e347e
+
+PODFILE CHECKSUM: 42e35f7cb858ebe77530853539c5362ef00b78b2
+
+COCOAPODS: 1.15.2

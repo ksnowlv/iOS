@@ -1,0 +1,6 @@
+framework module SwiftyCurl {
+  umbrella header "SwiftyCurl-umbrella.h"
+
+  export *
+  module * { export * }
+}
