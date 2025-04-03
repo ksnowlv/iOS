@@ -7,6 +7,11 @@
 
 import UIKit
 import Collections
+import os.log
+
+// 设置日志标签
+let tag = "com.ios.app"
+
 
 class ViewController: UIViewController {
     
@@ -17,6 +22,8 @@ class ViewController: UIViewController {
         self.testHeap()
         self.testOrderedDictionary()
         self.testOrderedSet()
+        self.testTreeSet()
+        self.testTreeDictionary()
     }
     
     func testDeque() {
@@ -51,9 +58,12 @@ class ViewController: UIViewController {
     func testHeap() {
         var heap = Heap<Int>()
         
-        for i in 0..<50 {
+        let loopNum = 20
+        
+        for i in 0..<loopNum {
             heap.insert(i)
         }
+        
         
         
         print("heap min:\(heap.min), max:\(heap.max)")
@@ -62,13 +72,26 @@ class ViewController: UIViewController {
             print("Next smallest element:", min)
         }
         
+        for i in 0..<loopNum {
+            heap.insert(i)
+        }
+        
         while let max = heap.popMax() {
             print("Next largest element:", max)
+        }
+        
+        for i in 0..<loopNum {
+            heap.insert(i)
         }
         
         for val in heap.unordered {
             print("heap:\(val)")
         }
+        
+        heap.replaceMax(with: 100)
+        heap.replaceMin(with: 3)
+        
+        print("heap min:\(heap.min), max:\(heap.max)")
     }
     
     func testOrderedDictionary() {
@@ -119,7 +142,7 @@ class ViewController: UIViewController {
             
             
         } else {
-          
+            
             print("http status code\(httpStatusCode) not found! ")
         }
         
@@ -150,8 +173,8 @@ class ViewController: UIViewController {
         }
         
         //大于400过滤掉filter
-       let newResponses =  responses.filter { (key: Int, value: String) in
-           return (key >= 400)
+        let newResponses =  responses.filter { (key: Int, value: String) in
+            return (key >= 400)
         }
         
         print("after filter,newResponses:\(newResponses)")
@@ -168,7 +191,7 @@ class ViewController: UIViewController {
         var fruits: OrderedSet = ["apple", "banana", "pear"]
         
         var otherFruits:OrderedSet = ["grape","cherry"]
-       
+        
         // union
         fruits = fruits.union(otherFruits)
         
@@ -233,6 +256,155 @@ class ViewController: UIViewController {
         
     }
     
- 
+    func testTreeSet()  {
+        let loopNum = 1_000
+        var set = TreeSet(0 ..< loopNum)
+        let copy = set
+        set.insert(20_000) // Expected to be an O(log(n)) operation
+        let diff = set.subtracting(copy) // Also O(log(n))!
+        // `diff` now holds the single item 20_000.
+        
+        //Finding Elements
+        
+        var num = 99
+        var res = set.contains(num)
+        
+        print("\(num) contains in set:\(res)")
+        
+        
+        num = 99
+        
+        if let index = set.firstIndex(of: num) {
+            
+            print("\(num) firstIndex:\(index)")
+        }
+        
+        if let index = set.lastIndex(of: num) {
+            
+            print("\(num) lastIndex:\(index)")
+        }
+        
+        //Adding and Updating Elements
+        
+        let insertRes = set.insert(num)
+        
+        print("\(num) inserted:\(insertRes.inserted) memberAfterInsert:\(insertRes.memberAfterInsert)")
+        
+        num = 2_000
+        let insertRes1 = set.insert(num)
+        
+        print("\(num) inserted:\(insertRes1.inserted) memberAfterInsert:\(insertRes1.memberAfterInsert)")
+        
+        num = 10
+        if let updateRes =  set.update(with: num) {
+            print("\(num) update:\(updateRes) memberAfterInsert:\(insertRes.memberAfterInsert)")
+        }
+        
+        num = 11
+        
+        //        if let index =  set.firstIndex(of: 100) {
+        //            let res = set.update(200, at: index)
+        //            print("100 update:\(res)")
+        //        }
+        
+        //Removing Elementsin page link
+        
+        let removeRes = set.remove(200) ?? 0
+        
+        print("remove:\(removeRes)")
+        
+        set.removeAll {
+            return $0 > 100
+        }
+        
+        let newSet = set.filter {
+            $0 % 2 == 0
+        }
+        
+        print(newSet)
+        
+        set.removeAll {
+            return $0 > 30
+        }
+        
+        set.forEach { e in
+            print("set element:\(e)")
+        }
+        
+    }
+    
+    func testTreeDictionary() {
+        
+        var treeDictionary = TreeDictionary(uniqueKeysWithValues: (0 ..< 100).map { ($0, 2 * $0) })
+        
+        print("---treeDictionary")
+        treeDictionary.forEach { (key: Int, value: Int) in
+            print("key:\(key), value:\(value)")
+        }
+        let copy = treeDictionary
+        treeDictionary[2000] = 42 // Expected to be an O(log(n)) operation
+        let diff = treeDictionary.keys.subtracting(copy.keys) // Also O(log(n))!
+        // `diff` now holds the single item 20_000.
+        print("diff:\(diff)")
+        print("---treeDictionary1")
+        copy.forEach { (key: Int, value: Int) in
+            print("key:\(key), value:\(value)")
+        }
+        
+        //查询是否为空，数量，所有的key，value值
+        print("treeDictionary isEmpty \(treeDictionary.isEmpty)")
+        print("treeDictionary count \(treeDictionary.count)")
+        print("treeDictionary keys \(treeDictionary.keys)")
+        print("treeDictionary values \(treeDictionary.values)")
+        //添加key/value
+        treeDictionary[20000] = 1000
+        print("treeDictionary treeDictionary[20000]: \(treeDictionary[20000] ?? 0)")
+        
+        treeDictionary.updateValue(10001, forKey: 20000)
+        print("treeDictionary treeDictionary[20000]: \(treeDictionary[20000] ?? 0)")
+        
+        var treeDictionary2 = TreeDictionary<Int, Int>()
+        treeDictionary2[3000] = 3000
+        treeDictionary2[3001] = 3001
+        treeDictionary2[3002] = 3002
+        treeDictionary[20000] = 0
+        
+        
+        // 使用 merge 方法合并序列到字典中
+//        treeDictionary.merge(treeDictionary2, uniquingKeysWith: { (existingValue, newValue) -> Int in
+//            // 这里我们可以选择保留 existingValue 或 newValue，或者将它们组合起来
+//            // 例如，我们可以选择保留新的值，或者合并两个值
+//            print("---existingValue:\(existingValue),newValue:\(newValue)")
+//            return existingValue // 假设我们想要将两个值合并起来
+//            
+//        })
+        
+        //合并字典
+        treeDictionary.merge([10000:1,100000:2,20000:2222]) { v1, v2 in
+            
+            v2
+        }
+        
+        // 打印合并后的字典
+        print("after merge:\(treeDictionary)")
+        
+        treeDictionary.removeAll {
+            
+            return $0.key > 10
+        }
+        
+        print("after remove:\(treeDictionary)")
+        //移除
+        treeDictionary.removeValue(forKey: 8)
+        
+        print("after remove key 8:\(treeDictionary)")
+        
+        //过滤
+        let filterTreeDictionary = treeDictionary.filter { (key: Int, value: Int) in
+            return key < 5
+        }
+        print("key < 5 all element:\(filterTreeDictionary)")
+    }
+    
 }
 
