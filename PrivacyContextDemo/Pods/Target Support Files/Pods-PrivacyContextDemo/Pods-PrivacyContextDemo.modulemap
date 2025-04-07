@@ -1,0 +1,6 @@
+framework module Pods_PrivacyContextDemo {
+  umbrella header "Pods-PrivacyContextDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

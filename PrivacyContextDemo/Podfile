@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+platform :ios, '14.0'
+use_frameworks!
+
+target 'PrivacyContextDemo' do
+  pod 'AlicloudPDNS'
+end
