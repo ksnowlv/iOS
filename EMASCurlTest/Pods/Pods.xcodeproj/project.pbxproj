@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D77012A947686E6332424B90D880BE /* EMASCurlCookieStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 768B2C51B3B6E8F9D34702915D1127EB /* EMASCurlCookieStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19DF9A67B6C6525C384C63D8B2E8B3C4 /* EMASCurl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A14CE339401A45876217D6D1403C1F /* EMASCurl-dummy.m */; };
+		2724E4ADD2E9DD6B2CEEB56B28F579B5 /* Pods-EMASCurlTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845D15A3366D35E2A2D974BD7764ABD5 /* Pods-EMASCurlTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29654045C50CB11632920D703339F926 /* EMASCurl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 419A30A12F1B121E9CAB412776F36A14 /* EMASCurl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4818580DCB54CAF29DB9BBA65D0DEE5B /* EMASCurlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 879579056E00B43466410031A3F5FF76 /* EMASCurlManager.m */; };
+		5400BBF4B9A1B3994A9C76A7DE47E879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		607C305386F53D1F5B8945758B7E8827 /* EMASCurlCookieStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B441318D31A80D0A1B99D20040E1A51E /* EMASCurlCookieStorage.m */; };
+		6B0B3567969940AEDB06EAF906CF866A /* EMASCurlProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C93C3065591F470833149C821F8761 /* EMASCurlProtocol.m */; };
+		7F45D523478A3BD46C58F22FDA60EEFC /* Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C394A1B4E47FD6F63DC6DD19994E30 /* Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m */; };
+		99559A0CB836231C72630C3392C60350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A46943B4758E9995075E7255709C7910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B8C66725981FB4E06886D05EC28E0379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		BE6AAD50CA655C5EBE5A9A1297E0C139 /* Pods-EMASCurlTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49F4C3D74ECB8DD3BC7EA88E513F74 /* Pods-EMASCurlTestTests-dummy.m */; };
+		DB613A7A2245BB8F8BC6CF757791B6D7 /* Pods-EMASCurlTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E044D88F920ED729D30AF6BE680999 /* Pods-EMASCurlTest-dummy.m */; };
+		DB8147E698DC0701864AA5241550B95C /* EMASCurlProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1A0DB586D46DA02FA7626B8C6E81DD /* EMASCurlProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3ACA39E2876CF965F079A4D0715A655 /* EMASCurlManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 553BC6868A200780D642B019C818AED8 /* EMASCurlManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBFE05F7072FBCCFF6979D849990CC94 /* Pods-EMASCurlTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F18B3BD52150CD6563E12BDD91A853AE /* Pods-EMASCurlTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4EE1AF74B3561453EDE0A88CA6A6E5 /* Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B23EF5319A2FCE949AE4385A15BEFEF3 /* Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8CF0EFDA7ECE39C1E87CC7F070D62BD /* EMASCurl.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3E88847FDB59BEB7C8C8AF1B363538 /* EMASCurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62487FBB50EDBAFEECAB6F84D8992B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF20659E655FC92C85AFF656B41F20DC;
+			remoteInfo = EMASCurl;
+		};
+		D89A27C1E5B584790DAE105C7C1F5099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A00C03C67D026BF9BF78F9653A9AB6;
+			remoteInfo = "Pods-EMASCurlTest";
+		};
+		EA60456BFB713FABE00D8224A8B61CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF20659E655FC92C85AFF656B41F20DC;
+			remoteInfo = EMASCurl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0850E6F8DBF1DA7DEE4BEA3368A527BB /* EMASCurl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMASCurl-prefix.pch"; sourceTree = "<group>"; };
+		0CBE3BE6F0BC566F8C37DDAAC8E865E3 /* Pods-EMASCurlTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMASCurlTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D4935A2B51A1F5FF3A4D5D2D2244053 /* Pods-EMASCurlTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMASCurlTestTests.modulemap"; sourceTree = "<group>"; };
+		0E1A0DB586D46DA02FA7626B8C6E81DD /* EMASCurlProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMASCurlProtocol.h; path = EMASCurl/EMASCurlProtocol.h; sourceTree = "<group>"; };
+		17573CC77FC82B6B5D5D4EE39E8D0446 /* Pods-EMASCurlTest-EMASCurlTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTest-EMASCurlTestUITests-Info.plist"; sourceTree = "<group>"; };
+		19C93C3065591F470833149C821F8761 /* EMASCurlProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMASCurlProtocol.m; path = EMASCurl/EMASCurlProtocol.m; sourceTree = "<group>"; };
+		1CD7949686306AD8114D374EA0913E21 /* EMASCurl-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "EMASCurl-xcframeworks.sh"; sourceTree = "<group>"; };
+		206EA68C347BA103BE4CFF154DC88295 /* Pods-EMASCurlTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE97E21D3A5B83DC61ECB933B22F960 /* Pods-EMASCurlTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMASCurlTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30118E6B168C9CB1FEDE12C213A20E5F /* Pods-EMASCurlTest-EMASCurlTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTest-EMASCurlTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35F0C0C22C75EAAC013F13B714F7F26C /* Pods-EMASCurlTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMASCurlTest.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		419A30A12F1B121E9CAB412776F36A14 /* EMASCurl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMASCurl-umbrella.h"; sourceTree = "<group>"; };
+		429F7E1493B550FA2413060E2FF55389 /* Pods-EMASCurlTest-EMASCurlTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EMASCurlTest-EMASCurlTestUITests"; path = Pods_EMASCurlTest_EMASCurlTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4541EE5AAC6CF3104F9F46438EB12328 /* EMASCurl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMASCurl; path = EMASCurl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B824A109C15CAA04E0625307B1F207 /* Pods-EMASCurlTest-EMASCurlTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTest-EMASCurlTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		553BC6868A200780D642B019C818AED8 /* EMASCurlManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMASCurlManager.h; path = EMASCurl/EMASCurlManager.h; sourceTree = "<group>"; };
+		57C394A1B4E47FD6F63DC6DD19994E30 /* Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m"; sourceTree = "<group>"; };
+		5EB763B05BDC67960D3BB4BF96E0BE80 /* EMASCurl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMASCurl.debug.xcconfig; sourceTree = "<group>"; };
+		5EBBB66C4C37A0C46284F5B5B3F024AA /* Pods-EMASCurlTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C57F2F1556476C74E8D41C8A90ADADE /* EMASCurl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EMASCurl-Info.plist"; sourceTree = "<group>"; };
+		768B2C51B3B6E8F9D34702915D1127EB /* EMASCurlCookieStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMASCurlCookieStorage.h; path = EMASCurl/EMASCurlCookieStorage.h; sourceTree = "<group>"; };
+		80760F6B9A841F0D3576CE1E3CE4D404 /* libcurl-HTTP2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "libcurl-HTTP2.xcframework"; path = "precompiled/libcurl-HTTP2.xcframework"; sourceTree = "<group>"; };
+		845D15A3366D35E2A2D974BD7764ABD5 /* Pods-EMASCurlTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMASCurlTest-umbrella.h"; sourceTree = "<group>"; };
+		879579056E00B43466410031A3F5FF76 /* EMASCurlManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMASCurlManager.m; path = EMASCurl/EMASCurlManager.m; sourceTree = "<group>"; };
+		981605211B27A2DBB707CD13E6E2DFF5 /* Pods-EMASCurlTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMASCurlTest-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24EE417793E80AB8991C7C3E432B749 /* Pods-EMASCurlTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABBE70BC4AE0CC7D6A158EF45B91563B /* Pods-EMASCurlTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTestTests-Info.plist"; sourceTree = "<group>"; };
+		AF49F4C3D74ECB8DD3BC7EA88E513F74 /* Pods-EMASCurlTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMASCurlTestTests-dummy.m"; sourceTree = "<group>"; };
+		B052A8D0253169726F253B6AF473FDCB /* Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B23EF5319A2FCE949AE4385A15BEFEF3 /* Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		B441318D31A80D0A1B99D20040E1A51E /* EMASCurlCookieStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EMASCurlCookieStorage.m; path = EMASCurl/EMASCurlCookieStorage.m; sourceTree = "<group>"; };
+		B9A14CE339401A45876217D6D1403C1F /* EMASCurl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMASCurl-dummy.m"; sourceTree = "<group>"; };
+		C4FEBC6E4C101DD180131F4A6DAC29D3 /* Pods-EMASCurlTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EMASCurlTestTests"; path = Pods_EMASCurlTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8863040EDBA9EB1A1AA3343D96F4C7 /* Pods-EMASCurlTest-EMASCurlTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EMASCurlTest-EMASCurlTestUITests.modulemap"; sourceTree = "<group>"; };
+		CFA6486659A3EBC4B04988A5E2F262EA /* Pods-EMASCurlTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4E044D88F920ED729D30AF6BE680999 /* Pods-EMASCurlTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMASCurlTest-dummy.m"; sourceTree = "<group>"; };
+		D8EA0C23D4F5B0DE2498C88A39C5F194 /* Pods-EMASCurlTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EMASCurlTest"; path = Pods_EMASCurlTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF89FA0AD04EC568D89E44548CA8878 /* Pods-EMASCurlTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D92F4CE5796BF0622B3100C67E6576 /* Pods-EMASCurlTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMASCurlTest-Info.plist"; sourceTree = "<group>"; };
+		E5E288BFE83DE805218A19707D7DA0A0 /* Pods-EMASCurlTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMASCurlTest.release.xcconfig"; sourceTree = "<group>"; };
+		F18B3BD52150CD6563E12BDD91A853AE /* Pods-EMASCurlTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMASCurlTestTests-umbrella.h"; sourceTree = "<group>"; };
+		F7280E17BA88A5A36DD06BEE0026372C /* Pods-EMASCurlTest-EMASCurlTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMASCurlTest-EMASCurlTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F80662C276ECF2B1920EF56E92397F4E /* Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDEAB340D1B524982532F8D25341A8D4 /* EMASCurl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMASCurl.release.xcconfig; sourceTree = "<group>"; };
+		FEB7F099CF4F83BCF4CFD91E7B9DD130 /* EMASCurl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMASCurl.modulemap; sourceTree = "<group>"; };
+		FF3E88847FDB59BEB7C8C8AF1B363538 /* EMASCurl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMASCurl.h; path = EMASCurl/EMASCurl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0E7316E5D3E7A808EAEB1750D41D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99559A0CB836231C72630C3392C60350 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5787CD8A8AD445EBD1E9580A3ED1B4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5400BBF4B9A1B3994A9C76A7DE47E879 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F49F40688FF10322796E3A87F62AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C66725981FB4E06886D05EC28E0379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD516D5632BC673B79C098D2DCC6E8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46943B4758E9995075E7255709C7910 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37006BE0A90675A2D13A1DF9DF4DDCBC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB3DEDBE8E7178CC3FBAD901BFD4CC /* Pods-EMASCurlTest */,
+				C1923DAF13CF8479F00DED6003E47963 /* Pods-EMASCurlTest-EMASCurlTestUITests */,
+				DE2C7F3B2F2AF417A5A24F3CCE92948D /* Pods-EMASCurlTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41D25486399FEF7F06739D8DD0CE3731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4541EE5AAC6CF3104F9F46438EB12328 /* EMASCurl */,
+				D8EA0C23D4F5B0DE2498C88A39C5F194 /* Pods-EMASCurlTest */,
+				429F7E1493B550FA2413060E2FF55389 /* Pods-EMASCurlTest-EMASCurlTestUITests */,
+				C4FEBC6E4C101DD180131F4A6DAC29D3 /* Pods-EMASCurlTestTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4207DFB03F68843FF1105238CD4026C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7F099CF4F83BCF4CFD91E7B9DD130 /* EMASCurl.modulemap */,
+				B9A14CE339401A45876217D6D1403C1F /* EMASCurl-dummy.m */,
+				6C57F2F1556476C74E8D41C8A90ADADE /* EMASCurl-Info.plist */,
+				0850E6F8DBF1DA7DEE4BEA3368A527BB /* EMASCurl-prefix.pch */,
+				419A30A12F1B121E9CAB412776F36A14 /* EMASCurl-umbrella.h */,
+				1CD7949686306AD8114D374EA0913E21 /* EMASCurl-xcframeworks.sh */,
+				5EB763B05BDC67960D3BB4BF96E0BE80 /* EMASCurl.debug.xcconfig */,
+				FDEAB340D1B524982532F8D25341A8D4 /* EMASCurl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EMASCurl";
+			sourceTree = "<group>";
+		};
+		60E706AB0A8EF3E61DF3F3C6CD950A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80760F6B9A841F0D3576CE1E3CE4D404 /* libcurl-HTTP2.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		786747D6399B3C812DEAC07E5D45007A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8461991253D269C4CC177ABA0D3B74C9 /* EMASCurl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8461991253D269C4CC177ABA0D3B74C9 /* EMASCurl */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E88847FDB59BEB7C8C8AF1B363538 /* EMASCurl.h */,
+				768B2C51B3B6E8F9D34702915D1127EB /* EMASCurlCookieStorage.h */,
+				B441318D31A80D0A1B99D20040E1A51E /* EMASCurlCookieStorage.m */,
+				553BC6868A200780D642B019C818AED8 /* EMASCurlManager.h */,
+				879579056E00B43466410031A3F5FF76 /* EMASCurlManager.m */,
+				0E1A0DB586D46DA02FA7626B8C6E81DD /* EMASCurlProtocol.h */,
+				19C93C3065591F470833149C821F8761 /* EMASCurlProtocol.m */,
+				60E706AB0A8EF3E61DF3F3C6CD950A23 /* Frameworks */,
+				4207DFB03F68843FF1105238CD4026C6 /* Support Files */,
+			);
+			name = EMASCurl;
+			path = EMASCurl;
+			sourceTree = "<group>";
+		};
+		C1923DAF13CF8479F00DED6003E47963 /* Pods-EMASCurlTest-EMASCurlTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC8863040EDBA9EB1A1AA3343D96F4C7 /* Pods-EMASCurlTest-EMASCurlTestUITests.modulemap */,
+				F80662C276ECF2B1920EF56E92397F4E /* Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.markdown */,
+				B052A8D0253169726F253B6AF473FDCB /* Pods-EMASCurlTest-EMASCurlTestUITests-acknowledgements.plist */,
+				57C394A1B4E47FD6F63DC6DD19994E30 /* Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m */,
+				F7280E17BA88A5A36DD06BEE0026372C /* Pods-EMASCurlTest-EMASCurlTestUITests-frameworks.sh */,
+				17573CC77FC82B6B5D5D4EE39E8D0446 /* Pods-EMASCurlTest-EMASCurlTestUITests-Info.plist */,
+				B23EF5319A2FCE949AE4385A15BEFEF3 /* Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h */,
+				30118E6B168C9CB1FEDE12C213A20E5F /* Pods-EMASCurlTest-EMASCurlTestUITests.debug.xcconfig */,
+				50B824A109C15CAA04E0625307B1F207 /* Pods-EMASCurlTest-EMASCurlTestUITests.release.xcconfig */,
+			);
+			name = "Pods-EMASCurlTest-EMASCurlTestUITests";
+			path = "Target Support Files/Pods-EMASCurlTest-EMASCurlTestUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				786747D6399B3C812DEAC07E5D45007A /* Pods */,
+				41D25486399FEF7F06739D8DD0CE3731 /* Products */,
+				37006BE0A90675A2D13A1DF9DF4DDCBC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2C7F3B2F2AF417A5A24F3CCE92948D /* Pods-EMASCurlTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4935A2B51A1F5FF3A4D5D2D2244053 /* Pods-EMASCurlTestTests.modulemap */,
+				0CBE3BE6F0BC566F8C37DDAAC8E865E3 /* Pods-EMASCurlTestTests-acknowledgements.markdown */,
+				CFA6486659A3EBC4B04988A5E2F262EA /* Pods-EMASCurlTestTests-acknowledgements.plist */,
+				AF49F4C3D74ECB8DD3BC7EA88E513F74 /* Pods-EMASCurlTestTests-dummy.m */,
+				ABBE70BC4AE0CC7D6A158EF45B91563B /* Pods-EMASCurlTestTests-Info.plist */,
+				F18B3BD52150CD6563E12BDD91A853AE /* Pods-EMASCurlTestTests-umbrella.h */,
+				A24EE417793E80AB8991C7C3E432B749 /* Pods-EMASCurlTestTests.debug.xcconfig */,
+				DDF89FA0AD04EC568D89E44548CA8878 /* Pods-EMASCurlTestTests.release.xcconfig */,
+			);
+			name = "Pods-EMASCurlTestTests";
+			path = "Target Support Files/Pods-EMASCurlTestTests";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDEB3DEDBE8E7178CC3FBAD901BFD4CC /* Pods-EMASCurlTest */ = {
+			isa = PBXGroup;
+			children = (
+				35F0C0C22C75EAAC013F13B714F7F26C /* Pods-EMASCurlTest.modulemap */,
+				2EE97E21D3A5B83DC61ECB933B22F960 /* Pods-EMASCurlTest-acknowledgements.markdown */,
+				5EBBB66C4C37A0C46284F5B5B3F024AA /* Pods-EMASCurlTest-acknowledgements.plist */,
+				D4E044D88F920ED729D30AF6BE680999 /* Pods-EMASCurlTest-dummy.m */,
+				981605211B27A2DBB707CD13E6E2DFF5 /* Pods-EMASCurlTest-frameworks.sh */,
+				E1D92F4CE5796BF0622B3100C67E6576 /* Pods-EMASCurlTest-Info.plist */,
+				845D15A3366D35E2A2D974BD7764ABD5 /* Pods-EMASCurlTest-umbrella.h */,
+				206EA68C347BA103BE4CFF154DC88295 /* Pods-EMASCurlTest.debug.xcconfig */,
+				E5E288BFE83DE805218A19707D7DA0A0 /* Pods-EMASCurlTest.release.xcconfig */,
+			);
+			name = "Pods-EMASCurlTest";
+			path = "Target Support Files/Pods-EMASCurlTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22187F1AAE27D66A0AC4B4E9641CE2FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4EE1AF74B3561453EDE0A88CA6A6E5 /* Pods-EMASCurlTest-EMASCurlTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F33E7DBF80097D3E44BB1B2ACCFE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFE05F7072FBCCFF6979D849990CC94 /* Pods-EMASCurlTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA54523DA0F92F2AD8B16FE9D890A221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CF0EFDA7ECE39C1E87CC7F070D62BD /* EMASCurl.h in Headers */,
+				29654045C50CB11632920D703339F926 /* EMASCurl-umbrella.h in Headers */,
+				19D77012A947686E6332424B90D880BE /* EMASCurlCookieStorage.h in Headers */,
+				E3ACA39E2876CF965F079A4D0715A655 /* EMASCurlManager.h in Headers */,
+				DB8147E698DC0701864AA5241550B95C /* EMASCurlProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FD4095E6A195E8F4316B3BF3531A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2724E4ADD2E9DD6B2CEEB56B28F579B5 /* Pods-EMASCurlTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DD1940DEC69C148EB6A0FFC515DCD12 /* Pods-EMASCurlTest-EMASCurlTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023073F27B26FA00B0CF23C178436FA2 /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTest-EMASCurlTestUITests" */;
+			buildPhases = (
+				22187F1AAE27D66A0AC4B4E9641CE2FE /* Headers */,
+				366982D5438D9E17BAB069948E3FC9CF /* Sources */,
+				A8F49F40688FF10322796E3A87F62AA1 /* Frameworks */,
+				995B9113DB91175330896EEE6129B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FB5626E619DA4604FDEC539D801B5E /* PBXTargetDependency */,
+			);
+			name = "Pods-EMASCurlTest-EMASCurlTestUITests";
+			productName = Pods_EMASCurlTest_EMASCurlTestUITests;
+			productReference = 429F7E1493B550FA2413060E2FF55389 /* Pods-EMASCurlTest-EMASCurlTestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		67DF8BD3AE23975CA2A627A88369824C /* Pods-EMASCurlTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1648D07F3825977C0DC0DB2A70700C /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTestTests" */;
+			buildPhases = (
+				8E4F33E7DBF80097D3E44BB1B2ACCFE5 /* Headers */,
+				926CBF914A0553869DE7CD29C2E5DF2F /* Sources */,
+				2B0E7316E5D3E7A808EAEB1750D41D4F /* Frameworks */,
+				554FE805ADBE1FBB2E2E22FA79225E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68761A50252C5D9C523E67080A14C05 /* PBXTargetDependency */,
+			);
+			name = "Pods-EMASCurlTestTests";
+			productName = Pods_EMASCurlTestTests;
+			productReference = C4FEBC6E4C101DD180131F4A6DAC29D3 /* Pods-EMASCurlTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9A00C03C67D026BF9BF78F9653A9AB6 /* Pods-EMASCurlTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C250972FDA1DEBB1CDC2E343FD752F11 /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTest" */;
+			buildPhases = (
+				D4FD4095E6A195E8F4316B3BF3531A91 /* Headers */,
+				66D549B6E2C8C8FF4272E636FA18DE57 /* Sources */,
+				5787CD8A8AD445EBD1E9580A3ED1B4AA /* Frameworks */,
+				6D6E485D458BE0849ACD6D6A1D81DD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E63D0A7BF842D43A0E77E1311B74C3AE /* PBXTargetDependency */,
+			);
+			name = "Pods-EMASCurlTest";
+			productName = Pods_EMASCurlTest;
+			productReference = D8EA0C23D4F5B0DE2498C88A39C5F194 /* Pods-EMASCurlTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF20659E655FC92C85AFF656B41F20DC /* EMASCurl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8B45EB7CF7749157BC8BF386711DF6 /* Build configuration list for PBXNativeTarget "EMASCurl" */;
+			buildPhases = (
+				AA54523DA0F92F2AD8B16FE9D890A221 /* Headers */,
+				B62C1085E86138C7DBD8515D10A7C806 /* [CP] Copy XCFrameworks */,
+				073D4B1A7A1295E26C6BD1B6BB5060F1 /* Sources */,
+				DD516D5632BC673B79C098D2DCC6E8A3 /* Frameworks */,
+				650C0477379732C1ECD7048373DE8B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMASCurl;
+			productName = EMASCurl;
+			productReference = 4541EE5AAC6CF3104F9F46438EB12328 /* EMASCurl */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 41D25486399FEF7F06739D8DD0CE3731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF20659E655FC92C85AFF656B41F20DC /* EMASCurl */,
+				C9A00C03C67D026BF9BF78F9653A9AB6 /* Pods-EMASCurlTest */,
+				3DD1940DEC69C148EB6A0FFC515DCD12 /* Pods-EMASCurlTest-EMASCurlTestUITests */,
+				67DF8BD3AE23975CA2A627A88369824C /* Pods-EMASCurlTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554FE805ADBE1FBB2E2E22FA79225E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C0477379732C1ECD7048373DE8B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E485D458BE0849ACD6D6A1D81DD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995B9113DB91175330896EEE6129B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B62C1085E86138C7DBD8515D10A7C806 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/EMASCurl/EMASCurl-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/EMASCurl/EMASCurl-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/EMASCurl/EMASCurl-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073D4B1A7A1295E26C6BD1B6BB5060F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DF9A67B6C6525C384C63D8B2E8B3C4 /* EMASCurl-dummy.m in Sources */,
+				607C305386F53D1F5B8945758B7E8827 /* EMASCurlCookieStorage.m in Sources */,
+				4818580DCB54CAF29DB9BBA65D0DEE5B /* EMASCurlManager.m in Sources */,
+				6B0B3567969940AEDB06EAF906CF866A /* EMASCurlProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366982D5438D9E17BAB069948E3FC9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F45D523478A3BD46C58F22FDA60EEFC /* Pods-EMASCurlTest-EMASCurlTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D549B6E2C8C8FF4272E636FA18DE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB613A7A2245BB8F8BC6CF757791B6D7 /* Pods-EMASCurlTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926CBF914A0553869DE7CD29C2E5DF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6AAD50CA655C5EBE5A9A1297E0C139 /* Pods-EMASCurlTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6FB5626E619DA4604FDEC539D801B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EMASCurl;
+			target = DF20659E655FC92C85AFF656B41F20DC /* EMASCurl */;
+			targetProxy = EA60456BFB713FABE00D8224A8B61CC9 /* PBXContainerItemProxy */;
+		};
+		E63D0A7BF842D43A0E77E1311B74C3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EMASCurl;
+			target = DF20659E655FC92C85AFF656B41F20DC /* EMASCurl */;
+			targetProxy = 62487FBB50EDBAFEECAB6F84D8992B4E /* PBXContainerItemProxy */;
+		};
+		F68761A50252C5D9C523E67080A14C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMASCurlTest";
+			target = C9A00C03C67D026BF9BF78F9653A9AB6 /* Pods-EMASCurlTest */;
+			targetProxy = D89A27C1E5B584790DAE105C7C1F5099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		079D33B5947348F750CDE813D87FFA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30118E6B168C9CB1FEDE12C213A20E5F /* Pods-EMASCurlTest-EMASCurlTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTest-EMASCurlTestUITests/Pods-EMASCurlTest-EMASCurlTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTest-EMASCurlTestUITests/Pods-EMASCurlTest-EMASCurlTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C481C6DA9F710FFC3F83E008DA9FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E288BFE83DE805218A19707D7DA0A0 /* Pods-EMASCurlTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTest/Pods-EMASCurlTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTest/Pods-EMASCurlTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		542DB4203CA56AE3866078A00C32B920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEAB340D1B524982532F8D25341A8D4 /* EMASCurl.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/EMASCurl/EMASCurl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/EMASCurl/EMASCurl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EMASCurl/EMASCurl.modulemap";
+				PRODUCT_MODULE_NAME = EMASCurl;
+				PRODUCT_NAME = EMASCurl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59D9548A5F68D027841D71645DE13AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24EE417793E80AB8991C7C3E432B749 /* Pods-EMASCurlTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTestTests/Pods-EMASCurlTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTestTests/Pods-EMASCurlTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67D33F3DB9523B158132726AEE2757F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206EA68C347BA103BE4CFF154DC88295 /* Pods-EMASCurlTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTest/Pods-EMASCurlTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTest/Pods-EMASCurlTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A968E15BA9DA975E1FEB2091076E0691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB763B05BDC67960D3BB4BF96E0BE80 /* EMASCurl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/EMASCurl/EMASCurl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/EMASCurl/EMASCurl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EMASCurl/EMASCurl.modulemap";
+				PRODUCT_MODULE_NAME = EMASCurl;
+				PRODUCT_NAME = EMASCurl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B373B3F6E0733FD7CDE45A0B210D4DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B824A109C15CAA04E0625307B1F207 /* Pods-EMASCurlTest-EMASCurlTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTest-EMASCurlTestUITests/Pods-EMASCurlTest-EMASCurlTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTest-EMASCurlTestUITests/Pods-EMASCurlTest-EMASCurlTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E20E815CD1B31F5A711A64BCEEFB1721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF89FA0AD04EC568D89E44548CA8878 /* Pods-EMASCurlTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMASCurlTestTests/Pods-EMASCurlTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EMASCurlTestTests/Pods-EMASCurlTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023073F27B26FA00B0CF23C178436FA2 /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTest-EMASCurlTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D33B5947348F750CDE813D87FFA6F /* Debug */,
+				B373B3F6E0733FD7CDE45A0B210D4DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C250972FDA1DEBB1CDC2E343FD752F11 /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D33F3DB9523B158132726AEE2757F0 /* Debug */,
+				2C481C6DA9F710FFC3F83E008DA9FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1648D07F3825977C0DC0DB2A70700C /* Build configuration list for PBXNativeTarget "Pods-EMASCurlTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D9548A5F68D027841D71645DE13AA6 /* Debug */,
+				E20E815CD1B31F5A711A64BCEEFB1721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8B45EB7CF7749157BC8BF386711DF6 /* Build configuration list for PBXNativeTarget "EMASCurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968E15BA9DA975E1FEB2091076E0691 /* Debug */,
+				542DB4203CA56AE3866078A00C32B920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

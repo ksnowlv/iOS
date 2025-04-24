@@ -1,0 +1,16 @@
+PODS:
+  - EMASCurl (1.2.0-beta)
+
+DEPENDENCIES:
+  - EMASCurl (= 1.2.0-beta)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - EMASCurl
+
+SPEC CHECKSUMS:
+  EMASCurl: ba0e04b1f8821b50d7d4b202f9bc5ccfda8e2a01
+
+PODFILE CHECKSUM: 2d4b82e470b76d61845b70d753f8fc828cdc5adc
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module EMASCurl {
+  umbrella header "EMASCurl-umbrella.h"
+
+  export *
+  module * { export * }
+}

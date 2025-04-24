@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/EMASCurl/EMASCurl-xcframeworks.sh
+${PODS_ROOT}/EMASCurl/precompiled/libcurl-HTTP2.xcframework
